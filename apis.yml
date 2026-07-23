@@ -1,19 +1,43 @@
 aid: auxmoney
 name: Auxmoney
-description: 'Auxmoney is a company surfaced as a portfolio company of index-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Auxmoney (auxmoney GmbH) is a Düsseldorf-based German fintech operating
+  one of Europe''s largest online lending marketplaces, connecting consumer and small-business
+  borrowers with private and institutional investors. Its fully digital platform handles
+  personal-loan applications end to end — identity and credit checks, risk scoring,
+  approval within seconds, and disbursement typically within 24 hours — funded by
+  retail investors and institutional capital via its investment arm. Surfaced as a
+  portfolio company of Index Ventures. auxmoney publishes no public developer API or
+  portal; its integration surface is a partner/affiliate program plus internal open-source
+  tooling on GitHub. This profile is maintained by the API Evangelist enrichment pipeline.'
 url: https://raw.githubusercontent.com/api-evangelist/auxmoney/refs/heads/main/apis.yml
 x-type: company
 x-source: index-ventures-portfolio
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.auxmoney.com/wp-content/uploads/auxmoney-signet-696-696.png
 tags:
 - Company
 - Fintech
+- Lending
+- Loans
+- P2P Lending
+- Marketplace
+- Investing
+- Germany
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +46,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://auxmoney.com
+  url: https://www.auxmoney.com
+- type: GitHubOrganization
+  url: https://github.com/auxmoney
+- type: Support
+  url: https://www.auxmoney.com/kontakt
+- type: HelpCenter
+  url: https://www.auxmoney.com/faq/kreditnehmer-faq
+- type: TermsOfService
+  url: https://www.auxmoney.com/infos/agb
+- type: PrivacyPolicy
+  url: https://www.auxmoney.com/infos/datenschutz
+- type: DomainSecurity
+  url: security/auxmoney-domain-security.yml
+- type: WellKnown
+  url: well-known/auxmoney-well-known.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

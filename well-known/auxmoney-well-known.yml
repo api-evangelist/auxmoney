@@ -1,0 +1,17 @@
+generated: '2026-07-18'
+method: searched
+source: live probe of https://www.auxmoney.com/.well-known/*
+host: https://www.auxmoney.com
+documents:
+- path: /.well-known/security.txt          # RFC 9116
+  status: 404
+- path: /.well-known/openid-configuration   # OIDC discovery
+  status: 404
+- path: /.well-known/oauth-authorization-server  # RFC 8414
+  status: 404
+- path: /.well-known/api-catalog            # RFC 9727
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: No .well-known discovery documents published. auxmoney is a consumer P2P
+  lending platform with no public developer API surface as of this probe.
