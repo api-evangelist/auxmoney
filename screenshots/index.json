@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "auxmoney",
+    "captured_at": "2026-10-11T181445",
+    "source_url": "https://www.auxmoney.com",
+    "source_type": "Website",
+    "file": "auxmoney-2026-10-11T181445.png",
+    "bytes": 65115,
+    "capture": "playwright-local"
+  }
+]
